@@ -4,14 +4,18 @@
 * There are three tables in a single database-<br><br>
 1.Ordered - contains the columns<br><br>
 <img width="429" alt="image" src="https://user-images.githubusercontent.com/109818534/227788259-d12b1712-2fbd-4975-99f8-56201e6fb368.png"><br>
+<img width="496" alt="image" src="https://user-images.githubusercontent.com/109818534/227791112-b0265fdb-c083-4fb4-bb6d-0e3f31e85c6e.png">
+<br>
 * the entires are old and I am lazy to update them ;)<br>
 * order_no is the unique key and must be kept uniqe while entering new data for order.<br>
 * Order Name and ID can be selected with the table in 'over-coded' form.html which appears at home page : form.html needs update<br>
 <br><br>
-2.Kitchen -the columns are <br><br><img width="444" alt="image" src="https://user-images.githubusercontent.com/109818534/227788561-70dd1db2-330f-4c2c-b442-2b9481a9c2bf.png"><br>
+2.Kitchen -the columns are <br><br><img width="444" alt="image" src="https://user-images.githubusercontent.com/109818534/227788561-70dd1db2-330f-4c2c-b442-2b9481a9c2bf.png"><br><img width="403" alt="image" src="https://user-images.githubusercontent.com/109818534/227791155-f2108af3-c387-4a22-9268-ddc3981b1e35.png">
+<br>
 * this database is dispayed at the kitchen and the chef can select items whcih are prep<br>
 <br><br>
-3.Scheduled - the columns are <br><br><img width="604" alt="image" src="https://user-images.githubusercontent.com/109818534/227788617-d65287ab-84e5-4596-a804-a41d8210803a.png"><br>
+3.Scheduled - the columns are <br><br><img width="604" alt="image" src="https://user-images.githubusercontent.com/109818534/227788617-d65287ab-84e5-4596-a804-a41d8210803a.png"><br><img width="418" alt="image" src="https://user-images.githubusercontent.com/109818534/227791216-91f94a8a-a37d-4894-9022-1e7be1bb2736.png">
+<br>
 <br>
 * When the virtual env is created the first page that appears is '/' which is form.html. Users can enter their order here by giving a unique order no.(which ideally should be maintained internally and kept unique.). <br>
 * After entring the order, we are redirectred to same page again and can order again.<br>
